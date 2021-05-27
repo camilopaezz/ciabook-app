@@ -1,0 +1,39 @@
+:root {
+  --react-blue: #282c33;
+}
+
+body {
+  background-color: var(--react-blue);
+  font-family: monospace;
+  text-align: center;
+  color: white;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 300px;
+  animation: 4s spin linear infinite;
+  margin-top: 40px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
